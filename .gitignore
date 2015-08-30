@@ -30,4 +30,4 @@ node_modules
 .test
 
 # Build directory
-#dist
+dist
