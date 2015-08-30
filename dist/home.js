@@ -6,6 +6,8 @@
     return "Hello " + name + "!";
   };
 
+  module.exports.greeting = greeting;
+
   console.log(greeting("Eduardo"));
 
 }).call(this);
