@@ -4,7 +4,7 @@
   "description": "node.js CoffeeScript Personal Finances website. Small personal project, playing around with MongoDB.",
   "main": "home.js",
   "scripts": {
-    "test": "test"
+    "test": "mocha -w --compilers coffee:coffee-script/register"
   },
   "repository": {
     "type": "git",
