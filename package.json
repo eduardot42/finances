@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eduardot42/finances.git"
+    "url": "https://github.com/eduardot42/finances"
   },
   "keywords": [
     "node.js",
@@ -23,6 +23,10 @@
     "url": "https://github.com/eduardot42/finances/issues"
   },
   "homepage": "https://github.com/eduardot42/finances#readme",
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "should": "^7.1.0"
+  },
   "dependencies": {
     "nodemon": "^1.4.1"
   }
