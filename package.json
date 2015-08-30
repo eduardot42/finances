@@ -5,7 +5,7 @@
   "main": "home.js",
   "scripts": {
     "test": "mocha",
-    "start": "(coffee --compile --output dist --watch src &);node_modules/nodemon/bin/nodemon.js dist/home.js"
+    "start": "(coffee --compile --output lib --watch src &);node_modules/nodemon/bin/nodemon.js lib/home.js"
   },
   "repository": {
     "type": "git",
