@@ -4,7 +4,8 @@
   "description": "node.js CoffeeScript Personal Finances website. Small personal project, playing around with MongoDB.",
   "main": "home.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "(coffee --compile --output dist --watch src &);node_modules/nodemon/bin/nodemon.js dist/home.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/eduardot42/finances/issues"
   },
-  "homepage": "https://github.com/eduardot42/finances#readme"
+  "homepage": "https://github.com/eduardot42/finances#readme",
+  "dependencies": {
+    "nodemon": "^1.4.1"
+  }
 }
